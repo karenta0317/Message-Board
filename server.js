@@ -6,7 +6,7 @@ let id = 0;
 function CurrentTime() {
   const time = new Date();
   const day = (time.getDate() < 10) ? `0${time.getDate()}` : time.getDate();
-  const month = (time.getMonth() < 10) ? `0${time.getMonth()}` : time.getMonth();
+  const month = (time.getMonth() < 10) ? `0${time.getMonth() + 1}` : time.getMonth() + 1;
   const year = time.getFullYear();
   const hours = (time.getHours() < 10) ? `0${time.getHours()}` : time.getHours();
   const minutes = (time.getMinutes() < 10) ? `0${time.getMinutes()}` : time.getMinutes();
@@ -17,7 +17,7 @@ const messages = [
   {
     ID: 'example1',
     userName: 'Katherine',
-    time: '2017/05/01 22:50:02',
+    time: '01/05/2017 22:50:02',
     text: 'Double click the heart icon to like \nClick the comment icon to see the comment',
     likeCount: 1000,
     reply: [],
@@ -25,7 +25,7 @@ const messages = [
   {
     ID: 'example2',
     userName: 'Zoe',
-    time: '2017/05/01 22:52:02',
+    time: '01/05/2017 22:52:02',
     text: 'Hello!',
     likeCount: 0,
     reply: [],
