@@ -2,7 +2,7 @@
 ## Introduction
 ![Alt text](https://cloud.githubusercontent.com/assets/22560872/25771388/ffe42aea-3281-11e7-8af1-25d47018326e.png "Optional title") 
 
-[**DEMO link**](https://messageboard-umyoiztahw.now.sh/)
+[**DEMO link**](https://messageboard-ihsumqyphc.now.sh/?)
 ## Get Started
 
 ### Installation
