@@ -18,8 +18,8 @@ const messages = [
     ID: 'example1',
     userName: 'Katherine',
     time: '2017/05/01 22:50:02',
-    text: 'Double click the heart icon to like \n Click the comment icon to see the comment',
-    likeCount: 0,
+    text: 'Double click the heart icon to like \nClick the comment icon to see the comment',
+    likeCount: 1000,
     reply: [],
   },
   {
